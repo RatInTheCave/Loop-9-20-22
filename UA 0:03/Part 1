@@ -1,0 +1,35 @@
+public class Main {
+    public static void main(String[] args) {
+
+
+     //while loop
+        int duck = 17;
+        while (duck > 0) {
+            System.out.println(duck);
+            duck = duck - 3;
+        }
+        System.out.println("I'm out of ducks");
+           //do while loop
+        int duckcute = 3;
+        do {
+         System.out.println("I have more ducks");
+       duckcute++;
+        }
+        while (duckcute <= 10);
+       System.out.println("I ran out of ducks. Again");
+        //for loop
+        for (int smartduck = 1; smartduck <=10; smartduck++) {
+            System.out.println("Duck IQ = " + smartduck * 10);
+
+        }
+        for (int finalduck = 10; finalduck >= 0; finalduck--) {
+            System.out.println("Reasons to hate ducks = " + finalduck);
+        }
+        for (int truefinalduck = 1; truefinalduck <= 10; truefinalduck++) {
+            System.out.println(truefinalduck);
+            for (int lastduck = 10; lastduck >= 0; lastduck--) ;
+            System.out.println("Ducks on the shelf");
+
+        }
+        }
+}
